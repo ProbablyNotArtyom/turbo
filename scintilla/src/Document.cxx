@@ -123,9 +123,9 @@ Document::Document(int options) :
 	enteredStyling = 0;
 	enteredReadOnlyCount = 0;
 	insertionSet = false;
-	tabInChars = 8;
+	tabInChars = 4;
 	indentInChars = 0;
-	actualIndentInChars = 8;
+	actualIndentInChars = 4;
 	useTabs = true;
 	tabIndents = true;
 	backspaceUnindents = false;

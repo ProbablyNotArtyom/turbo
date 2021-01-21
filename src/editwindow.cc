@@ -126,7 +126,7 @@ void EditorWindow::setUpEditor(std::string_view aFile, bool openCanFail)
     inSavePoint = true;
 
     // Indentation
-    editor.WndProc(SCI_SETUSETABS, false, 0U);
+    editor.WndProc(SCI_SETUSETABS, true, 0U);
     editor.WndProc(SCI_SETINDENT, 4, 0U);
     editor.WndProc(SCI_SETTABINDENTS, true, 0U);
     editor.WndProc(SCI_SETBACKSPACEUNINDENTS, true, 0U);

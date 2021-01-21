@@ -155,7 +155,7 @@ Editor::Editor() : durationWrapOneLine(0.00001, 0.000001, 0.0001) {
 	scrollWidth = 2000;
 	verticalScrollBarVisible = true;
 	endAtLastLine = true;
-	caretSticky = SC_CARETSTICKY_OFF;
+	caretSticky = SC_CARETSTICKY_WHITESPACE;
 	marginOptions = SC_MARGINOPTION_NONE;
 	mouseSelectionRectangularSwitch = false;
 	multipleSelection = false;
